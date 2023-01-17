@@ -1,0 +1,34 @@
+telusko navin reddy
+https://www.youtube.com/watch?v=ykpuyNy5oUM&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3&index=89
+
+
+GIT
+
+https://www.youtube.com/watch?v=iVpuVkVeBcw   --> video de la marius ciurea
+
+git init -->initializare git local	
+
+git status  --> verificam daca avem ceva modificari
+git add nume.fisier --> adauga in staging un fisier
+git commit -m  	"initial commit" --> se face un commit
+git log --> se verifica comiturile
+git add . --> adauga in staging toate fisierele din proiect
+git restore nume.fisier --> restaureaza un fisier sters
+*** putem crea un fisier ".gitignore" in care sa adaugam numele fisierelor sau a folderelor pe care nu dorim sa le urmareasca git-ul
+git branc --> verificam cate branchuri avem create
+git branch dev --> creem un branch nou (in cazul asta branchul se numeste dev)
+git branch -d dev --> stergem branch-ul cu numele dev
+
+github.com --> repository remote
+newrepository --> creem un repository nou remote pe github
+git clone https://github.com/danimoncerro/telusko --> clonam local un proiect de pe github
+
+
+git remote add origin https://github.com/danimoncerro/telusko.git --> creem un repository pe github
+
+
+git remote -v --> vedem ce remote repository avem
+git push -u origin master --> sincronizam repository local cu cel de pe github
+git push --> adauga toate modificarile din remote-ul local in cel remote
+git fetch --> verificam daca exista modificari pe repository remote fata de cel local
+git pull --> face update la repository local cu cel remote
