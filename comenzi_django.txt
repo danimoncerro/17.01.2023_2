@@ -32,3 +32,28 @@ git push -u origin master --> sincronizam repository local cu cel de pe github
 git push --> adauga toate modificarile din remote-ul local in cel remote
 git fetch --> verificam daca exista modificari pe repository remote fata de cel local
 git pull --> face update la repository local cu cel remote
+
+
+
+Setup
+
+python -m venv django_env
+mkvirtualenv test
+pip install django
+django-admin startproject telusko
+python manage.py runserver
+workon test
+python manage.py startapp calc
+
+python manage.py migrate
+
+DTL = Django Template Language
+
+pip freeze > requirements.txt --> creare fisier requirements
+
+
+
+Bek Brace
+
+
+https://www.youtube.com/watch?v=9aEsZxaOwRs&list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO&index=3
