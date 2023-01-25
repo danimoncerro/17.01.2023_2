@@ -45,11 +45,19 @@ python manage.py runserver
 workon test
 python manage.py startapp calc
 
+python manage.py makemigrations
 python manage.py migrate
+python manage.py shell --> se deschide un shell unde putem interoga baza de date
 
 DTL = Django Template Language
 
 pip freeze > requirements.txt --> creare fisier requirements
+
+python manage.py createsuperuser
+
+pip install django-filter
+
+pip install pillow --> pentru poze
 
 
 
@@ -57,3 +65,49 @@ Bek Brace
 
 
 https://www.youtube.com/watch?v=9aEsZxaOwRs&list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO&index=3
+
+
+*********************************************************************
+
+
+
+py manage.py startapp store  # creare aplicatie noua
+
+HEROKU
+
+heroku login
+heroku create sistemhortigrup
+
+heroku git:remote -a hortigruptest1   // conectarea la un anumit folder
+	
+git remote -v
+git init
+git status
+git add .
+git commit -m "Primul commit"
+git push heroku master
+	
+
+push dupa modificare
+
+git status
+git add .
+git commit -m "Updated commit"
+git push heroku master
+
+
+
+Pythonanywhere
+
+
+
+alias python=python3  //comutare intre python2 si python3
+
+mkvirtualenv django3 --python=/usr/bin/python3.8  // creare mediu virtual nou
+
+workon django3 // pornire environment
+
+
+mysql
+
+mysql -u moncerro -h moncerro.mysql.pythonanywhere-services.com -p    //conectarea la mysql
